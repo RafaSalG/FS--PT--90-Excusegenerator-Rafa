@@ -10,7 +10,6 @@ let random2 = Math.floor(Math.random() * action.length);
 let random3 = Math.floor(Math.random() * what.length);
 let random4 = Math.floor(Math.random() * when.length);
 
-
 document.querySelector("#excuse").innerHTML = who[random1] +
 " " + action[random2] + 
 " " + what[random3] +
